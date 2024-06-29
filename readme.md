@@ -102,7 +102,7 @@ WD-SeatWork4
 |   └─ js
 |       └─ script.js
 └─ pages
-|  └─ Hero1
+|  └─  Feature-1
 |  |  └─ assets
 |  |   |  └─ css
 |  |   |  |  └─ style.css
@@ -111,7 +111,7 @@ WD-SeatWork4
 |  |   |  └─ js
 |  |   |     └─ script.js
 |  |   └─ index.html
-└─ └─ Hero2
+└─ └─ Feature-2
 |  |  └─ assets
 |  |   |  └─ css
 |  |   |  |  └─ style.css
@@ -120,45 +120,15 @@ WD-SeatWork4
 |  |   |  └─ js
 |  |   |     └─ script.js
 |  |   └─ index.html
-|  └─ Hero3
+|  └─ Page3
 |  |  └─ assets
 |  |   |  └─ css
 |  |   |  |  └─ style.css
-|  |   |  └─ img
-|  |   |  |  └─ fileWith.jpg/.png
 |  |   |  └─ js
 |  |   |     └─ script.js
 |  |   └─ index.html
-|  └─ Hero4
-|  |  └─ assets
-|  |   |  └─ css
-|  |   |  |  └─ style.css
-|  |   |  └─ img
-|  |   |  |  └─ fileWith.jpg/.png
-|  |   |  └─ js
-|  |   |     └─ script.js
-|  |   └─ index.html
-|  └─ Hero5
-|  |  └─ assets
-|  |   |  └─ css
-|  |   |  |  └─ style.css
-|  |   |  └─ img
-|  |   |  |  └─ fileWith.jpg/.png
-|  |   |  └─ js
-|  |   |     └─ script.js
-|  |   └─ index.html
-└─ └─ Card-Gallery
-|     └─ assets
-|      |  └─ css
-|      |  |  └─ style.css
-|      |  └─ img
-|      |  |  └─ fileWith.jpg/.png
-|      |  └─ js
-|      |     └─ script.js
-|      └─ index.html
 └─ index.html
 └─ readme.md
-```
 
 ## Resources
 
