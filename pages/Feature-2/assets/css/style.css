@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -6,7 +5,6 @@ body {
     background-color: #ede0d4;
     overflow-x: hidden;
 }
-
 
 .header {
     display: flex;
@@ -56,7 +54,7 @@ body {
     border-bottom: 2px solid #fff;
 }
 
-/* Title Container */
+
 .title-container {
     display: flex;
     align-items: center;
@@ -79,7 +77,6 @@ body {
     animation: slideInLeft 1.5s ease-in-out;
 }
 
-
 .details {
     padding: 2rem;
     animation: fadeIn 1s ease-in-out;
@@ -90,7 +87,6 @@ body {
     color: #8b4513; 
     animation: slideInDown 1s ease-in-out;
 }
-
 
 .angles, .bullets, .specifications {
     display: flex;
@@ -112,12 +108,13 @@ body {
     border-radius: 8px;
     background-color: #f4a261; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: border 0.3s ease-in-out;
+    transition: border 0.3s ease-in-out, transform 0.3s ease-in-out;
     animation: slideInRight 1s ease-in-out;
 }
 
 .angle-container:hover, .bullet-container:hover {
     border: 2px solid #8b4513; 
+    transform: scale(1.05);
 }
 
 .image-container {
@@ -125,13 +122,13 @@ body {
     width: 100%;
     height: auto;
     overflow: hidden;
+    transition: transform 0.3s ease-in-out;
 }
 
 .image-container img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    transition: transform 0.3s ease-in-out;
 }
 
 .image-container .hover-image {
@@ -152,6 +149,17 @@ body {
     z-index: 0;
 }
 
+.bullet-container:hover .image-container {
+    transform: scale(1.1);
+}
+
+.bullet-container .description-container {
+    transition: transform 0.3s ease-in-out;
+}
+
+.bullet-container:hover .description-container {
+    transform: scale(1.1);
+}
 
 .specifications {
     text-align: center;
@@ -171,7 +179,6 @@ body {
     animation: slideInRight 1s ease-in-out;
 }
 
-
 footer {
     background-color: #8b4513; 
     color: #fff;
@@ -187,12 +194,7 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-
-    .image-container, .description-container {
-        width: 90%;
-    }
 }
-
 
 @keyframes fadeIn {
     0% {
