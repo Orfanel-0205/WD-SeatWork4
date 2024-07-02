@@ -129,16 +129,18 @@ WD-SeatWork4
 |  |   └─ index.html
 └─ index.html
 └─ readme.md
+```
 
-## Resources
+### Resources
 
-<!-- TODO: Add References -->
+
 | Title | Purpose | Link |
 |-|-|-|
 | w3schools | To learn animation and transitions. | https://www.w3schools.com/css/default.asp |
+| fontawesome | To get fonts that serves as symbols | https://fontawesome.com |
 |Pinterest|For concepts | https://ph.pinterest.com|
 |pngwing|to get free png images|https://www.pngwing.com|
-|fontawesome|for free icons|https://fontawesome.com/|
+
 
 
 
