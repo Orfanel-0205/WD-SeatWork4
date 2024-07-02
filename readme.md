@@ -136,7 +136,10 @@ WD-SeatWork4
 | Title | Purpose | Link |
 |-|-|-|
 | w3schools | To learn animation and transitions. | https://www.w3schools.com/css/default.asp |
-| fontawesome | To get fonts that serves as symbols |	https://fontawesome.com|
-| Pinterest | To get ideas and photos |	https://ph.pinterest.com/|
-| Youtube| To get an ideas or concepts|	https://www.youtube.com/|
+|Pinterest|For concepts | https://ph.pinterest.com|
+|pngwing|to get free png images|https://www.pngwing.com|
+|fontawesome|for free icons|https://fontawesome.com/|
+
+
+
 
